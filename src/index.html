@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Contact us</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<meta charset="UTF-8">
+
+</head>
+<body>
+
+<div id="content">
+	<div id="header" class="header">
+		<h1><abbr title="Computing Science">CMPT</abbr> 470 (E1 Spring 2018)</h1>
+		<h1>Exercise 3 </h1>
+	</div>
+
+	<div id="main" class="main">
+
+		<h1>Contact us </h1>
+
+		<form name="myform" action="process.php" method="POST">
+			<input type="hidden" name="check_submit" value="1">
+
+			<label for="userid">Your SFU computing ID (required):</label>
+			<input type="text" autofocus="" required id="userid" name="userid" placeholder="e.g. ssmith"><br>
+
+			<label for="email">Your email address:</label>
+			<input type="email" id="email" name="email" placeholder="e.g. ssmith@gmail.com">
+
+			<label for="subject">Subject (do not include CMPT 470, required):</label>
+			<input type="text" id="subject" name="subject" required placeholder="e.g. Subject Title"><br>
+
+			<label for="body">Your message: </label><br>
+			<textarea id="body" name="body" rows="10" cols="60"></textarea><br>
+
+			<input class="button submit" type="submit" value="Submit">
+			<input class="button reset" type="reset" value="Reset">
+		</form>
+	</div>
+
+	<div id="footer" class="footer">
+		<p><a href="./"><abbr title="Computing Science">CMPT</abbr> 470 home</a> | <a href="http://www.sfu.ca">Simon Fraser University</a> | <a href="https://www.sfu.ca/computing.html">Computing Science</a></p>
+		<p>Copyright &copy; 2018, Based on contents created by<a href="https://www.cs.sfu.ca/~ggbaker/">Greg Baker</a></p>
+	</div>
+
+</div>
+
+
+</body></html>

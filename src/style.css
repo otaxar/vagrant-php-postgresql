@@ -1,0 +1,124 @@
+body{
+	font-family: "calibri", sans-serif;
+	font-size: 1em;
+	background-color: #fff;
+}
+
+
+h1 {
+	font-size: 1.5em;
+	color: #86759A;
+    line-height: 15px;
+}
+
+.header {
+	position: fixed;
+	z-index: 10000;
+	background-color: #868; /*757*/
+	padding: 0;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	text-align: center;
+	height: 60px;
+	width: 65%;
+	margin-top: -40px;
+}
+
+.header h1{
+	font-size: 1.45em;
+	color: white;
+	padding: 0;
+	line-height: 50%;
+}
+
+.main {
+	padding-top: 4em;
+	padding-bottom: 2em;
+}
+
+
+
+#content {
+	width:65%;
+	background-color:#FFF;
+	text-align: left;
+	display: block;
+	margin: 40px auto 10px auto;
+}
+
+form {
+    overflow: hidden;
+
+}
+
+label {
+	float: left;
+	width: 60%;
+    padding-top: 1em;
+    padding-bottom: 0.4em;
+	padding-right: 24px;
+}
+
+input {
+    	float: left;
+    	width: 40%;
+}
+
+input[type=email]:focus, input[type=text]:focus, textarea:focus {
+	background-color: #ede;
+}
+
+textarea{
+	float: left;
+	width: 99%;
+}
+
+.button {
+	float: right;
+	width: 15%;
+	margin: 15px 3px 15px 3px;
+}
+
+.submit:hover {
+	background-color: #b0c790;
+}
+
+.reset:hover{
+	background-color: #d5ad9b;
+}
+
+
+.footer{
+	text-align: center;
+	margin-top: 15em;
+	padding: 1px;
+	font-size: 1em;
+	background-color: #ccc;
+	color: #000;
+}
+.footer a{
+	text-decoration: none;
+	color: #000;
+	padding-right: .3em;
+	padding-left: .3em;
+}
+
+.footer a:active, .footer a:hover {
+	text-decoration: underline;
+}
+
+
+a {
+	text-decoration: none;
+	color: #86759A;
+	font-family: "calibri", sans-serif;
+}
+a:link {
+	font-weight: 700;
+}
+a:visited {
+	font-weight: 500;
+}
+a:hover, a:focus, a:active {
+	text-decoration: underline;
+}
