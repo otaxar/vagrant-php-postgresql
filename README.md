@@ -21,6 +21,6 @@ to verify PHP:
 to verify Postgresql:
 5) in terminal: vagrant ssh
 6) cd postgres_tests/queries
-7) vi <result_filename>.csv             
-# view the query results
-# queries were performned at DB7105 (access by: psql DB7105)
+7) vi <result_filename>.csv
+
+--queries were performned at DB7105 (access by: psql DB7105)
